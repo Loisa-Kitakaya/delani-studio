@@ -77,3 +77,26 @@
 .hidden-description {
   display: none;
 }
+
+/*styling the actual-portfolio-container div element within the portfolio-container div element*/
+#portfolio-header {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#project-icons {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-items: stretch;
+  justify-content: space-evenly;
+}
+
+.image-size {
+  max-width: 20%;
+  max-height: 20%;
+  padding-bottom: 2.5rem;
+  margin-left: 2.5rem;
+}
