@@ -55,3 +55,25 @@
   padding-bottom: 7rem;
   line-height: 2rem;
 }
+
+/*styling the what-we-do div element within the portfolio-container div element*/
+#whatwedo-header {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+#what-we-do {
+  display: flex;
+  flex-direction: row;
+  justify-items: stretch;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.clickable-images {
+  cursor: pointer;
+}
+
+.hidden-description {
+  display: none;
+}
