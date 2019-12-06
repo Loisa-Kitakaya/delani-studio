@@ -1,8 +1,22 @@
 #home-container {
   background-image: url(../img/backgrounds/h_img.jpg);
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   text-align: center;
+  color: white;
+}
+
+#logo {
+  padding-top: 10rem;
+}
+
+#welcome-title {
+  padding-top: 5rem;
+}
+
+#mouse-click {
+  padding-top: 7rem;
+  padding-bottom: 1rem;
 }
