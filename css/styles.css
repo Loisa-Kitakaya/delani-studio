@@ -99,3 +99,47 @@
   max-height: 100%;
   padding-bottom: 2rem;
 }
+
+/*styling the contact-us-container div element*/
+#contact-us-container {
+  background-image: url(../img/backgrounds/c_image.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#contact-form {
+  width: 65%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#user-form-info {
+  padding-bottom: 1rem;
+}
+
+#user-comment-text {
+  padding-bottom: 5rem;
+}
+
+#contact-header {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+::placeholder {
+  color: white;
+}
+
+#user-name,
+#user-email,
+#user-comments {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 7px;
+}
