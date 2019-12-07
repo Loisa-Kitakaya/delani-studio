@@ -3,19 +3,37 @@ $(document).ready(function() {
   //function to control the display of text in-place of the what we do icons
 
   //design space
-  $().click(function() {
-    $().removeClass();
-    $().addClass();
+  $("#design-icon").click(function() {
+    $("#design-icon").hide();
+    $("#design-icon-description").toggle();
+    $("#design-icon-description").show();
+  });
+  $("#design-icon-description").click(function() {
+    $("#design-icon-description").hide();
+    $("#design-icon").toggle();
+    $("#design-icon").show();
   });
   //development-space
-  $().click(function() {
-    $().removeClass();
-    $().addClass();
+  $("#development-icon").click(function() {
+    $("#development-icon").hide();
+    $("#development-icon-description").toggle();
+    $("#development-icon-description").show();
+  });
+  $("#development-icon-description").click(function() {
+    $("#development-icon-description").hide();
+    $("#development-icon").toggle();
+    $("#development-icon").show();
   });
   //product management stage
-  $().click(function() {
-    $().removeClass();
-    $().addClass();
+  $("#product-icon").click(function() {
+    $("#product-icon").hide();
+    $("#product-icon-description").toggle();
+    $("#product-icon-description").show();
+  });
+  $("#product-icon-description").click(function() {
+    $("#product-icon-description").hide();
+    $("#product-icon").toggle();
+    $("#product-icon").show();
   });
 
   //functions to control the display of the project headers on the project images on mouse hoover, in the portfolio section
