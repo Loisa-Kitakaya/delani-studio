@@ -83,6 +83,18 @@ body {
   display: none;
 }
 
+#design-icon-description {
+  text-align: center;
+}
+
+#development-icon-description {
+  text-align: center;
+}
+
+#product-icon-description {
+  text-align: center;
+}
+
 /*styling the actual-portfolio-container div element within the portfolio-container div element*/
 #portfolio-header {
   text-align: center;
