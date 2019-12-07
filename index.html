@@ -11,6 +11,7 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
+    <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/scripts.js"></script>
     <title>Delani Studio</title>
   </head>
@@ -73,7 +74,7 @@
                 src="./img/services_icons/design_icon.png"
                 alt="Design icon png image"
               />
-              <p class="hidden-description">
+              <p class="hidden-description" d="design-icon-description">
                 Our deign practice offers a full range of services including
                 brand strategy, interaction and visual design and user
                 experience testing.<br />
@@ -89,7 +90,7 @@
                 src="./img/services_icons/dev_icon.png"
                 alt="Development icon png image"
               />
-              <p class="hidden-description">
+              <p class="hidden-description" id="development-icon-description">
                 All engineers are fluent in the latest enerprise, mobile and web
                 development technologies.<br />
                 they collaborate with your team to write, and improve code on a
@@ -104,7 +105,7 @@
                 src="./img/services_icons/product_icon.png"
                 alt="product management icon png image"
               />
-              <p class="hidden-description">
+              <p class="hidden-description" id="product-icon-description">
                 Planning and development is iteravtive. Because we are
                 constantly coding and testing, the products we build are always
                 ready to go live.<br />
@@ -115,57 +116,97 @@
           </div>
           <div id="actual-portfolio-container">
             <h2 id="portfolio-header">PORTFOLIO</h2>
-            <div class="project-icons">
-              <img
-                id="project-one"
-                class="clickable-images image-size"
-                src="./img/portfolio/work1.jpg"
-                alt="Project one"
-              />
-              <img
-                id="project-two"
-                class="clickable-images image-size"
-                src="./img/portfolio/work2.jpg"
-                alt="Project two"
-              />
-              <img
-                id="project-three"
-                class="clickable-images image-size"
-                src="./img/portfolio/work3.jpg"
-                alt="Project three"
-              />
-              <img
-                id="project-four"
-                class="clickable-images image-size"
-                src="./img/portfolio/work4.jpg"
-                alt="Project four"
-              />
+            <div class="row">
+              <div class="col-md-3">
+                <img
+                  id="project-one"
+                  class="clickable-images image-size"
+                  src="./img/portfolio/work1.jpg"
+                  alt="Project one"
+                />
+                <p class="hidden-description" id="project-one-title">
+                  Project One
+                </p>
+              </div>
+              <div class="col-md-3">
+                <img
+                  id="project-two"
+                  class="clickable-images image-size"
+                  src="./img/portfolio/work2.jpg"
+                  alt="Project two"
+                />
+                <p class="hidden-description" id="project-two-title">
+                  Project Two
+                </p>
+              </div>
+              <div class="col-md-3">
+                <img
+                  id="project-three"
+                  class="clickable-images image-size"
+                  src="./img/portfolio/work3.jpg"
+                  alt="Project three"
+                />
+                <p class="hidden-description" id="project-three-title">
+                  Project Three
+                </p>
+              </div>
+              <div class="col-md-3">
+                <img
+                  id="project-four"
+                  class="clickable-images image-size"
+                  src="./img/portfolio/work4.jpg"
+                  alt="Project four"
+                />
+                <p class="hidden-description" id="project-four-title">
+                  Project Four
+                </p>
+              </div>
             </div>
-            <div class="project-icons">
-              <img
-                id="project-five"
-                class="clickable-images image-size"
-                src="./img/portfolio/work5.jpg"
-                alt="Project five"
-              />
-              <img
-                id="project-six"
-                class="clickable-images image-size"
-                src="./img/portfolio/work6.jpg"
-                alt="Project six"
-              />
-              <img
-                id="project-seven"
-                class="clickable-images image-size"
-                src="./img/portfolio/work7.jpg"
-                alt="Project seven"
-              />
-              <img
-                id="project-eight"
-                class="clickable-images image-size"
-                src="./img/portfolio/work8.jpg"
-                alt="Project eight"
-              />
+            <div class="row">
+              <div class="col-md-3">
+                <img
+                  id="project-five"
+                  class="clickable-images image-size"
+                  src="./img/portfolio/work5.jpg"
+                  alt="Project five"
+                />
+                <p class="hidden-description" id="project-five-title">
+                  Project Five
+                </p>
+              </div>
+              <div class="col-md-3">
+                <img
+                  id="project-six"
+                  class="clickable-images image-size"
+                  src="./img/portfolio/work6.jpg"
+                  alt="Project six"
+                />
+                <p class="hidden-description" id="project-six-title">
+                  Project Six
+                </p>
+              </div>
+              <div class="col-md-3">
+                <img
+                  id="project-seven"
+                  class="clickable-images image-size"
+                  src="./img/portfolio/work7.jpg"
+                  alt="Project seven"
+                />
+                <p class="hidden-description" id="project-seven-title">
+                  Project Seven
+                </p>
+              </div>
+              <div class="col-md-3">
+                <img
+                  id="project-eight"
+                  class="clickable-images image-size"
+                  src="./img/portfolio/work8.jpg"
+                  alt="Project eight"
+                />
+                <p class="hidden-description" id="project-eight-title">
+                  Project Eight
+                </p>
+              </div>
             </div>
           </div>
         </div>
