@@ -143,3 +143,22 @@
   color: white;
   padding: 7px;
 }
+
+/*styling the footer-container div element*/
+#footer-container {
+  text-align: center;
+}
+
+#social-media-icons {
+  padding-top: 4rem;
+}
+
+a {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+#delani-footer {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
