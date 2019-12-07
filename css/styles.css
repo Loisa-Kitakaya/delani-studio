@@ -1,3 +1,8 @@
+/*styling the body element of the webpage*/
+body {
+  font-family: "Play", sans-serif;
+}
+
 /*styling of the home-container div element*/
 #home-container {
   background-image: url(../img/backgrounds/h_img.jpg);
