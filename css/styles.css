@@ -18,8 +18,8 @@
 }
 
 #mouse-click {
-  padding-top: 7rem;
-  padding-bottom: 1rem;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
 }
 
 /*styling the about-us-container div element*/
@@ -34,7 +34,7 @@
 
 #about-us-description {
   padding-bottom: 2rem;
-  line-height: 2rem;
+  line-height: 3rem;
 }
 
 /*styling the service-container div element*/
@@ -52,8 +52,8 @@
 }
 
 #service-description {
-  padding-bottom: 7rem;
-  line-height: 2rem;
+  padding-bottom: 6rem;
+  line-height: 3rem;
 }
 
 /*styling the what-we-do div element within the portfolio-container div element*/
@@ -85,18 +85,13 @@
   padding-bottom: 2rem;
 }
 
-#project-icons {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  display: flex;
-  flex-direction: row;
-  justify-items: stretch;
-  justify-content: space-evenly;
-}
-
 .image-size {
   max-width: 100%;
   max-height: 100%;
+  padding-bottom: 2rem;
+}
+
+#bottom-row-projects {
   padding-bottom: 2rem;
 }
 
