@@ -85,14 +85,17 @@ body {
 
 #design-icon-description {
   text-align: center;
+  width: 25%;
 }
 
 #development-icon-description {
   text-align: center;
+  width: 25%;
 }
 
 #product-icon-description {
   text-align: center;
+  width: 25%;
 }
 
 /*styling the actual-portfolio-container div element within the portfolio-container div element*/
