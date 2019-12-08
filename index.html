@@ -241,42 +241,44 @@
       <div id="contact-us-container">
         <h2 id="contact-header">CONTACT US</h2>
         <div id="contact-form">
-          <div class="row" id="user-form-info">
-            <div class="col-md-6">
-              <input
-                type="text"
-                name="Name"
-                placeholder="Name..."
-                id="user-name"
-                size="41"
-              />
+          <form action="" id="form-submission">
+            <div class="row" id="user-form-info">
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Name..."
+                  id="user-name"
+                  size="41"
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="email"
+                  name="Email"
+                  placeholder="Email..."
+                  id="user-email"
+                  size="41"
+                />
+              </div>
             </div>
-            <div class="col-md-6">
-              <input
-                type="email"
-                name="Email"
-                placeholder="Email..."
-                id="user-email"
-                size="41"
-              />
+            <div class="row" id="user-comment-text">
+              <div class="col-md-12">
+                <textarea
+                  name="Comments"
+                  placeholder="Your text here..."
+                  id="user-comments"
+                  cols="90"
+                  rows="8"
+                ></textarea>
+              </div>
             </div>
-          </div>
-          <div class="row" id="user-comment-text">
-            <div class="col-md-12">
-              <textarea
-                name="Comments"
-                placeholder="Your text here..."
-                id="user-comments"
-                cols="90"
-                rows="8"
-              ></textarea>
+            <div class="row" id="submit-button">
+              <div class="col-md-12">
+                <input type="submit" value="Submit" id="button-to-submit" />
+              </div>
             </div>
-          </div>
-          <div class="row" id="submit-button">
-            <div class="col-md-12">
-              <input type="submit" value="Submit" id="button-to-submit"/>
-            </div>
-          </div>
+          </form>
         </div>
       </div>
       <!--footer container-->
