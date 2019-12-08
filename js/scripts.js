@@ -141,7 +141,7 @@ $(document).ready(function() {
       alert(
         "Hey there " +
           nameOfUser +
-          ". Thank you for contacting us. We will get in touch through your email: " +
+          ". Thank you for contacting us. We will get in touch with you through your email: " +
           emailOfUser
       );
 
