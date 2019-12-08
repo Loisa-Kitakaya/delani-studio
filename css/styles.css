@@ -115,6 +115,46 @@ body {
   padding-bottom: 2rem;
 }
 
+#project-one-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+#project-two-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+#project-three-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+#project-four-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+#project-five-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+#project-six-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+#project-seven-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+#project-eight-title {
+  text-align: center;
+  font-weight: bold;
+}
+
 /*styling the contact-us-container div element*/
 #contact-us-container {
   background-image: url(../img/backgrounds/c_image.jpg);
@@ -137,7 +177,7 @@ body {
 }
 
 #user-comment-text {
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
 }
 
 #contact-header {
@@ -157,6 +197,14 @@ body {
   border: 1px solid white;
   color: white;
   padding: 7px;
+}
+
+#button-to-submit {
+  margin-left: 24rem;
+  margin-bottom: 2rem;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
 }
 
 /*styling the footer-container div element*/
