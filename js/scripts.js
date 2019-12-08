@@ -131,6 +131,8 @@ $(document).ready(function() {
   //jquery back-end code
 
   //code to control user details input and submission in the form section
+
+  //controls submission and reset of the form-submission form
   $("#form-submission").submit(function(event) {
     var nameOfUser = $("input#user-name").val();
     var emailOfUser = $("input#user-email").val();
