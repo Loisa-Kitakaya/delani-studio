@@ -147,7 +147,7 @@ $(document).ready(function() {
 
       $("form-submission").reset();
     } else {
-      alert("Invalid input! Please fill in your name and email address");
+      alert("Invalid input! Please fill in your name and email address.");
     }
 
     event.preventDefault();
