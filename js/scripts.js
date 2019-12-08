@@ -1,6 +1,7 @@
-//jquery front-end code
 $(document).ready(function() {
-  //function to control the display of text in-place of the what we do icons
+  //jquery front-end code
+
+  //code to control the display of text in-place of the what we do icons
 
   //design space
   $("#design-icon").click(function() {
@@ -126,4 +127,27 @@ $(document).ready(function() {
       $("#project-eight-title").toggle("#project-eight");
     }
   );
+
+  //jquery back-end code
+
+  //code to control user details input and submission in the form section
+  $("#form-submission").submit(function(event) {
+    var nameOfUser = $("input#user-name").val();
+    var emailOfUser = $("input#user-email").val();
+
+    if (nameOfUser != "" && emailOfUser != "") {
+      alert(
+        "Hey there " +
+          nameOfUser +
+          ". Thank you for contacting us. We will get in touch through your email: " +
+          emailOfUser
+      );
+
+      $("form-submission").reset();
+    } else {
+      alert("Invalid input! Please fill in your name and email address");
+    }
+
+    event.preventDefault();
+  });
 });
