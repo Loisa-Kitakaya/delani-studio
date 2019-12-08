@@ -39,43 +39,35 @@ $(document).ready(function() {
   //functions to control the display of the project headers on the project images on mouse hoover, in the portfolio section
 
   //project one
-  $().hoover(function() {
-    $().toggle();
-    $().show();
+  $("#project-one").hover(function() {
+    $("#project-one-title").toggle("#project-one");
   });
   //project two
-  $().hoover(function() {
-    $().toggle();
-    $().show();
+  $("#project-two").hover(function() {
+    $("#project-two-title").toggle("#project-two");
   });
   //project three
-  $().hoover(function() {
-    $().toggle();
-    $().show();
+  $("#project-three").hover(function() {
+    $("#project-three-title").toggle("#project-three");
   });
   //project four
-  $().hoover(function() {
-    $().toggle();
-    $().show();
+  $("#project-four").hover(function() {
+    $("#project-four-title").toggle("#project-four");
   });
   //project five
-  $().hoover(function() {
-    $().toggle();
-    $().show();
+  $("#project-five").hover(function() {
+    $("#project-five-title").toggle("#project-five");
   });
   //project six
-  $().hoover(function() {
-    $().toggle();
-    $().show();
+  $("#project-six").hover(function() {
+    $("#project-six-title").toggle("#project-six");
   });
   //project seven
-  $().hoover(function() {
-    $().toggle();
-    $().show();
+  $("#project-seven").hover(function() {
+    $("#project-seven-title").toggle("#project-seven");
   });
   //project eight
-  $().hoover(function() {
-    $().toggle();
-    $().show();
+  $("#project-eight").hover(function() {
+    $("#project-eight-title").toggle("#project-eight");
   });
 });
