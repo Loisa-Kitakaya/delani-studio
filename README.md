@@ -2,6 +2,10 @@
 
 https://loisa-kitakaya.github.io/delani-studio
 
+## Code grade
+
+[![codebeat badge](https://codebeat.co/badges/7273fab7-82b2-4604-a872-96612e13d14a)](https://codebeat.co/projects/github-com-loisa-kitakaya-delani-studio-master)
+
 ## About project
 
 This is a remake of Delani Studio (as described here: [https://moringaschool.instructure.com/courses/14/assignments/378]).
