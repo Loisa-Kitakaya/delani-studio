@@ -42,7 +42,7 @@ $(document).ready(function() {
   //project one
   $("#project-one").hover(
     function() {
-      $("#project-one").animate({ opacity: "0.65" });
+      $("#project-one").animate({ opacity: "0.35" });
       $("#project-one-title").toggle("#project-one");
     },
     function() {
@@ -53,7 +53,7 @@ $(document).ready(function() {
   //project two
   $("#project-two").hover(
     function() {
-      $("#project-two").animate({ opacity: "0.65" });
+      $("#project-two").animate({ opacity: "0.35" });
       $("#project-two-title").toggle("#project-two");
     },
     function() {
@@ -64,7 +64,7 @@ $(document).ready(function() {
   //project three
   $("#project-three").hover(
     function() {
-      $("#project-three").animate({ opacity: "0.65" });
+      $("#project-three").animate({ opacity: "0.35" });
       $("#project-three-title").toggle("#project-three");
     },
     function() {
@@ -75,7 +75,7 @@ $(document).ready(function() {
   //project four
   $("#project-four").hover(
     function() {
-      $("#project-four").animate({ opacity: "0.65" });
+      $("#project-four").animate({ opacity: "0.35" });
       $("#project-four-title").toggle("#project-four");
     },
     function() {
@@ -86,7 +86,7 @@ $(document).ready(function() {
   //project five
   $("#project-five").hover(
     function() {
-      $("#project-five").animate({ opacity: "0.65" });
+      $("#project-five").animate({ opacity: "0.35" });
       $("#project-five-title").toggle("#project-five");
     },
     function() {
@@ -97,7 +97,7 @@ $(document).ready(function() {
   //project six
   $("#project-six").hover(
     function() {
-      $("#project-six").animate({ opacity: "0.65" });
+      $("#project-six").animate({ opacity: "0.35" });
       $("#project-six-title").toggle("#project-six");
     },
     function() {
@@ -108,7 +108,7 @@ $(document).ready(function() {
   //project seven
   $("#project-seven").hover(
     function() {
-      $("#project-seven").animate({ opacity: "0.65" });
+      $("#project-seven").animate({ opacity: "0.35" });
       $("#project-seven-title").toggle("#project-seven");
     },
     function() {
@@ -119,7 +119,7 @@ $(document).ready(function() {
   //project eight
   $("#project-eight").hover(
     function() {
-      $("#project-eight").animate({ opacity: "0.65" });
+      $("#project-eight").animate({ opacity: "0.35" });
       $("#project-eight-title").toggle("#project-eight");
     },
     function() {
