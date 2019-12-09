@@ -83,6 +83,18 @@ body {
   display: none;
 }
 
+#design-icon {
+  text-align: center;
+}
+
+#development-icon {
+  text-align: center;
+}
+
+#product-icon {
+  text-align: center;
+}
+
 #design-icon-description {
   text-align: center;
   width: 25%;
